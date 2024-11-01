@@ -6,5 +6,5 @@ ENDPOINT = 'kylerdb.c7scgawikvce.us-west-1.rds.amazonaws.com'
 PORT = 3306
 REGION = 'us-west-1'
 DBNAME = 'KylerDB'
-SSL_CA = 'Git/ssl/rds-combined-ca-bundle.pem'
+SSL_CA = 'ssl/rds-combined-ca-bundle.pem'
 CURSORCLASS = pymysql.cursors.DictCursor
